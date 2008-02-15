@@ -1,0 +1,61 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/actionpack/test/fixtures/public
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+images
+dir
+
+500.html
+file
+
+
+
+
+2008-02-15T20:52:28.000000Z
+ed24e5e349297a55cb18607d8b160e62
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+javascripts
+dir
+
+404.html
+file
+
+
+
+
+2008-02-15T20:52:28.000000Z
+4d175f9da7b7ea28d28cfe516d776845
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+stylesheets
+dir
+

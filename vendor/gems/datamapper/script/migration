@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../lib/data_mapper'
+
+@model = ARGV.first
+@class = Inflector.classify(@model)
+@table = Inflector.tableize(@class)
+
+class DataMapper::Base
+  def self.property(name, type, options = {})
+    @properties ||= {}
+    @properties[name] = [type, options]
+  end
+end
+
+# We'll require this for now, since we don't have a real app environment
+require File.dirname(__FILE__) + '/../example'
+
+@klass = Inflector.constantize(@class)
+@instance = @klass.new
+@properties = @klass.instance_variable_get("@properties")
+# When HABTM is added, we can use this to generate the table migration for 
+# @associations = @instance.private_methods.sift(/_association/).collect do |method|
+#   @instance.send(method)
+# end
+
+puts "table :#{@table} do"
+@properties.each do |field, options|
+  type, options = options
+  puts "  add :#{field}, :#{type}"
+end
+puts "end"
+
+puts "table.drop :#{@table}"
+
+# puts @associations.inspect

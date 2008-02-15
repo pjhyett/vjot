@@ -1,0 +1,15 @@
+- name: Sam
+  age: 29
+  occupation: Programmer
+- name: Amy
+  age: 28
+  occupation: Business Analyst Manager
+- name: Scott
+  age: 25
+  occupation: Programmer
+- name: Josh
+  age: 23
+  occupation: Supervisor
+- name: Bob
+  age: 29
+  occupation: Peon

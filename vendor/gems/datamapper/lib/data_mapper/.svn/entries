@@ -1,0 +1,136 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/gems/datamapper/lib/data_mapper
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+associations
+dir
+
+associations.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+1d3d817a02ecba5f7bf8a4f63b772ec6
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+callbacks.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+c7b94c6721302e3e33b1ab429943ad02
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+adapters
+dir
+
+session.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+018a119ee9b1d391bb9818823fe4afcf
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+database.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+d34c2418533a86050f1aac69377f3126
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+unit_of_work.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+7cd82a7c7a5a6f04b1b0b989c3389ee0
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+identity_map.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+97631ba30032feced1ac3aedec7ef838
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+migration.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+472c16dea479872c8b39754939aa78d5
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+support
+dir
+
+base.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+4db17d38217b033a40ae626d41e0d7c1
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+validations
+dir
+

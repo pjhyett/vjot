@@ -1,0 +1,94 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/activesupport
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-02-15T20:52:25.000000Z
+7817c0e7c6146ea5ebf36952943c35aa
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-02-15T20:52:25.000000Z
+d3f07b9c77ecf5b1d802a7149136a1c1
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+install.rb
+file
+
+
+
+
+2008-02-15T20:52:25.000000Z
+e048cbf680f86a747c75c376643ce4fc
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+MIT-LICENSE
+file
+
+
+
+
+2008-02-15T20:52:25.000000Z
+8e11d5530bab3c7732205a5febfe41f7
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+README
+file
+
+
+
+
+2008-02-15T20:52:25.000000Z
+6d5825d5dbcc4f0d3d158618837d7b23
+2007-08-28T09:32:02.194524Z
+300
+pj
+

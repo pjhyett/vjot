@@ -1,0 +1,29 @@
+-- 0.1.0
+* Initial Public Release
+
+-- 0.1.1
+* Removed /lib/data_mapper/extensions
+* Moved ActiveRecordImpersonation into DataMapper::Support module
+* Moved CallbackHelper methods into DataMapper::Base class
+* Moved ValidationHelper into DataMapper::Validations module
+* Removed LoadedSet since it's not necessary for it to reference the Database, so it's nothing more than an array now; Replaced with Array
+* Modified data_mapper.rb to load DataMapper::Support::Enumerable
+* Modified example.rb and performance.rb to require 'lib/data_mapper' instead of modifying $LOADPATH
+* Created SqlAdapter base-class
+* Refactored MysqlAdapter to use SqlAdapter superclass
+* Refactored Sqlite3Adapter to use SqlAdapter superclass
+* Moved /lib/data_mapper/queries to /lib/data_mapper/adapters/sql/queries
+* Moved Connection, Result and Reader classes along with Coersion and Quoting modules to DataMapper::Adapters::Sql module
+* Moved DataMapper::Adapters::Sql::Queries to ::Commands
+* Moved Mappings to SqlAdapter
+* Added monolithic DeleteCommand
+* Added monolithic SaveCommand
+* Added TableExistsCommand
+* Moved save/delete logic out of Session
+* Added create-table functionality to SaveCommand
+* Cleaned up Session; #find no longer supported, use #all or #first
+* Moved object materialization into LoadCommand
+* Migrated Sqlite3Adapter::Commands
+* Added Session#query support back in
+* Removed Connection/Reader/Result classes
+* Set DataMapper::Base#key on load to avoid double-hit against Schema

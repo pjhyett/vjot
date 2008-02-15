@@ -1,0 +1,40 @@
+=== 0.1.0
+Initial Release
+
+=== 0.2.0
+"Statement" to "Command" refactoring to support a wider potential
+range of backing stores, and solve some tricky issues around
+queries that return rows that can materialize several objects at once.
+That work will bring with it HasAndBelongsToManyAssociation support.
+I also hope to have initial support for PostgreSQL.
+
+=== 0.3.0
+The goal for this release is to fill in missing save-chaining,
+callbacks, validations, documentation, etc so that this is the first
+"production-ready" release.
+
+=== 0.4.0
+Now that the feature-set should be 90% competitive with ActiveRecord,
+this release will focus on profiling and performance enhancements,
+which there should be a lot of opportunity for.
+
+=== 0.5.0
+Native Migration support should be added as well as removing any other
+functional dependencies on ActiveRecord for support.
+
+=== 0.6.0
+Plain-Old-Ruby-Object support. Mapping and management of classes
+should be completely divorced from the class definitions outside of
+helpers for convenience (ActiveRecordImpersonation). A DSL for
+mapping should be created for convenience.
+
+=== 0.7.0
+The "polymorphic" release?
+
+=== 0.8.0
+The "acts_as" release?
+
+=== 0.9.0
+HQL support?
+
+...

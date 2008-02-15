@@ -1,0 +1,52 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+unit_test.rb
+file
+
+
+
+
+2008-02-15T20:52:34.000000Z
+165ff2e730af1baa56b5bb6c191fffad
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+observer.rb
+file
+
+
+
+
+2008-02-15T20:52:34.000000Z
+4c895d9eb68003006e79b6e5e7619b37
+2007-08-28T09:32:02.194524Z
+300
+pj
+

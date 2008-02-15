@@ -1,0 +1,52 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/railties/lib/rails_generator/generators/applications/app
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+USAGE
+file
+
+
+
+
+2008-02-15T20:52:34.000000Z
+2f7ac9b48acb37d79209a7e16c9652ff
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+app_generator.rb
+file
+
+
+
+
+2008-02-15T20:52:34.000000Z
+66c0778c551c6c8af11c4f1bb58081f4
+2007-08-28T09:32:02.194524Z
+300
+pj
+

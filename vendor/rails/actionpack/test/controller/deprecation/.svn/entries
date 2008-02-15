@@ -1,0 +1,40 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/actionpack/test/controller/deprecation
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+deprecated_base_methods_test.rb
+file
+
+
+
+
+2008-02-15T20:52:26.000000Z
+a2eb01552c9b3eb18b95f86136e900be
+2007-08-28T09:32:02.194524Z
+300
+pj
+

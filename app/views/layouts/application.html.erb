@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>vJot</title>
+  <%= stylesheet_link_tag 'screen' %>
+  <%= javascript_include_tag 'prototype', 'lowpro', 'json', 'application' %>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1 id="logo">vJot</h1>
+      <% content_tag :div, :id => :meta do %>
+        <%= link_to 'Home', home_path %> 
+        | Settings <% # link_to_unless_current 'Settings', settings_path %> 
+        | <%= link_to 'Logout', logout_path %>
+      <% end %>
+      <%= content_tag :div, nil, :class => :clear %>
+    </div>
+    <%= content_tag :div, yield, :id => :content %>
+    <% content_tag :div, :id => :footer do %>
+      an <%= link_to 'Err the Blog', 'http://errtheblog.com' %> production, with design by <%= link_to 'seaofclouds', 'http://seaofclouds.com' %>
+    <% end %>
+  </div>
+</body>
+</html>

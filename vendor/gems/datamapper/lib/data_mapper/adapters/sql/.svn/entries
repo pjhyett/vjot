@@ -1,0 +1,58 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/gems/datamapper/lib/data_mapper/adapters/sql
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+commands
+dir
+
+coersion.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+08e83c1630509b1661b80552a57a72c2
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+quoting.rb
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+56da08f92e89e71534eafb393d79d1d5
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+mappings
+dir
+

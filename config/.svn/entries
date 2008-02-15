@@ -1,0 +1,79 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/config
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+routes.rb
+file
+
+
+
+
+2008-02-15T20:52:21.000000Z
+47f0f232a5a952f142739a7daf983cf7
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+database.yml
+file
+
+
+
+
+2008-02-15T20:52:21.000000Z
+e7e55f4d833d863c6841964f6f634afb
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+boot.rb
+file
+
+
+
+
+2008-02-15T20:52:21.000000Z
+417110f29a4bb6c57fbae5ceff0a5015
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+environment.rb
+file
+
+
+
+
+2008-02-15T20:52:21.000000Z
+7034da3b6ab0f2f1fd536fa7dfcb5e6a
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+environments
+dir
+

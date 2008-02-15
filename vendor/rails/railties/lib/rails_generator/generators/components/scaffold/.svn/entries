@@ -1,0 +1,55 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/railties/lib/rails_generator/generators/components/scaffold
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+USAGE
+file
+
+
+
+
+2008-02-15T20:52:33.000000Z
+fcedba60a19e3d1576e9cf4bf1a5f44e
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+scaffold_generator.rb
+file
+
+
+
+
+2008-02-15T20:52:33.000000Z
+9d29af18e2222c326c266ba1f7a5e7ab
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+templates
+dir
+

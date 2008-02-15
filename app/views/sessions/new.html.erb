@@ -1,0 +1,12 @@
+<div class="generic">
+  <h3>Welcome to vJot.</h3>
+  
+  <p>This app was specifically developed for the iPhone, but works fine in all browsers.</p>
+
+  <p>If you're new or already have an account, enter your desired/existing username below.</p>
+
+  <% form_for :user, :url => sessions_path do |f| %>
+    <%= text_field_tag :name %> 
+    <%= f.submit 'Go!' %>
+  <% end %>
+</div>

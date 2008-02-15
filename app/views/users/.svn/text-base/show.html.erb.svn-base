@@ -1,0 +1,32 @@
+<div id="jot_meta">
+  <%= text_field_tag :title, nil %> 
+  <%= link_to_function image_tag("icon-clear.png"), "container.clear()", :class => "action" %>
+</div>
+
+<div id="jots_toggle">
+  <span id="saved" style="display:none">Saved</span>
+  <%= link_to_function image_tag("icon-sync.jpg", :title => "Sync jots"), "container.sync()" %> 
+  <%= link_to_function image_tag("icon-list_toggle.png", :title => "Toggle jots list"), "$('jots').toggle()" %>
+</div>
+
+<%= content_tag :div, nil, :class => :clear %>
+<%= content_tag :ul, nil, :id => :jots, :style => "display:none" %>
+<%= text_area_tag :body, Default_jot, :disabled => :disabled %>
+
+<script>
+var container = new Container(<%= @user.id %>, <%= @user.jots.map(&:attributes).to_json %>);
+
+function jot_clicked(id) {
+  container.set_current(container.jots.find(function(jot){ return (jot.id == id) }));
+}
+
+Event.addBehavior({
+  '#title:keyup'    : function(e) { 
+    if(e.keyCode != Event.KEY_RETURN) container.search($F('title'));
+  },
+  '#title:keypress' : function(e) { 
+    if(e.keyCode == Event.KEY_RETURN) container.add_jot(new Jot(<%= @user.id %>, $F('title'), $F('body')));
+  },
+  '#body:keyup'     : function(e) { container.update_current(); }
+});
+</script>

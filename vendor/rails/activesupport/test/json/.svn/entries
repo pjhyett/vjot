@@ -1,0 +1,52 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/rails/activesupport/test/json
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+encoding_test.rb
+file
+
+
+
+
+2008-02-15T20:52:22.000000Z
+660eb1d353064545ce28cf071d0a01d6
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+decoding_test.rb
+file
+
+
+
+
+2008-02-15T20:52:22.000000Z
+f21b614fd15756916a9c2f3e9aba9c47
+2007-08-28T09:32:02.194524Z
+300
+pj
+

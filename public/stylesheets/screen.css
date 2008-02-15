@@ -1,0 +1,177 @@
+body {
+  font-family: arial, sans-serif;
+  background-color: #1b1d1f;
+  padding:0;
+  margin:0;
+  width:;
+}
+img {
+  border:0px;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+}
+#header{
+  margin-bottom:5px;
+}
+#header,
+#header a {
+  color:#fff;
+}
+#logo {
+  float:left;
+  font-size:140%;
+  margin:0;
+  padding:0;
+}
+#meta {
+  font-size:70%;
+  text-align:right;
+  padding-top:.85em;
+}
+#meta a {
+  text-decoration: none;
+}
+#meta a:hover {
+  text-decoration: underline;
+}
+
+
+#content {
+  padding: 10px;
+  background-color: #777;
+}
+
+#saved {
+  color:#fff;
+  padding:5px;
+  background-color:red;
+}
+#jot_meta {
+  position:relative;
+  width:217px;
+  float:left;
+}
+#jot_meta input {
+  width:100%;
+  border:1px solid #777;
+  line-height:1.5em;
+  padding:.3em;
+  font-size:100%;
+}
+#jot_meta a {
+  display:block;
+  position:absolute;
+  top:.5em;
+  right:.5em;
+  width:20px;
+}
+#jots_toggle {
+  float:right;
+  margin-top:5px;
+  margin-bottom:14px;
+  }
+#jots {
+  padding:0;
+  list-style-type: none;
+  margin:0;
+  clear:both;
+  border: 1px solid #777;
+  background-color: #ddd;
+  overflow: hidden;
+  margin-bottom:10px;
+}
+
+.jot {
+  margin:0;
+  line-height:1.5em;
+  cursor:pointer;
+  padding:.3em;
+  color:#333;
+  clear:both;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #999;
+}
+#jots div:last-child {
+  border-bottom:none;
+}
+.jot .jot {
+  padding:0;
+  border:none;
+}
+.clicked {
+  background-color: #3371e2;
+  border-bottom:1px solid #999;
+  color: #fff;
+}
+.jot_actions {
+  font-size:75%;
+  display:inline;
+}
+.jot_actions a {
+  text-decoration:none;
+  display:block;
+  float:right;
+}
+
+#body {
+  height: 250px;
+  width: 100%;
+  font-size:100%;
+  padding:.3em;;
+}
+h3 {
+  margin: 5px 0 10px 0px;
+}
+a {
+  color: #444;
+}
+textarea {
+  border: 1px solid #777;
+}
+
+#sidebar {
+  width: 150px;
+  position: absolute;
+  left: 415px;
+  top: 6px;
+}
+#footer {
+  text-align: center;
+  margin-top: 5px;
+  font-size:75%;
+  color:#ccc;
+}
+#footer a {
+  color:#ccc;
+}
+
+.generic {
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #BBBDBC;
+}
+
+.action {
+}
+
+.error {
+  background: #fff999;
+  padding: 5px;
+  font-weight: bold;
+}
+.strong {
+  font-weight: bold;
+}
+.tac {
+  text-align: center;
+}
+.clear {
+  clear:both;
+}
+
+input {
+  font-size:24px;
+}

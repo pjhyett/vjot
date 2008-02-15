@@ -1,0 +1,54 @@
+8
+
+dir
+365
+svn://errtheblog.com/svn/projects/vjot/vendor/gems/datamapper/script
+svn://errtheblog.com/svn/projects
+
+
+
+2007-08-28T09:32:02.194524Z
+300
+pj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf301c5b-d72e-0410-996c-ed4829982077
+
+migrate
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+32c82820ea7e8792196e6900131da435
+2007-08-28T09:32:02.194524Z
+300
+pj
+has-props
+
+migration
+file
+
+
+
+
+2008-02-15T20:52:36.000000Z
+cccb0e777bbd781348bc5e5a9e6cbf27
+2007-08-28T09:32:02.194524Z
+300
+pj
+has-props
+

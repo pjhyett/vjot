@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../lib/data_mapper'
+require File.dirname(__FILE__) + '/../migration'
+require File.dirname(__FILE__) + '/../example'
+
+AddUsers.migrate(:up)
