@@ -17,5 +17,5 @@ class SessionsController < ApplicationController
     cookies.delete(:user)
     redirect_to home_path
   end
-  
+  I am chang  
 end
